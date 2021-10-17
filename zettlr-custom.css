@@ -1,0 +1,89 @@
+/* Berlin Spandau */
+:root {
+  --green-0: #449c4d;
+  --green-1: #50ac59;
+  --green-selection: #76c47d;
+  --green-selection-dark: #1f6f2b;
+
+  --c-primary: var(--green-0);
+  --c-primary-contrast: white;
+  --c-primary-shade: var(--green-1);
+  --c-secondary: var(--blue-0);
+  --c-secondary-shade: var(--blue-1);
+  --bg-primary: white;
+  --bg-directories: #eaeaea;
+  --c-project: var(--red-0);
+  --c-project-dark: #f36262;
+  --bg-preview: #eaeaea;
+  --bg-annotation: var(--red-0);
+  --bg-annotation-dark: yellow;
+  --selection-light: var(--green-selection);
+  --selection-dark: var(--green-selection-dark);
+  --c-alert-success: var(--green-selection);
+  --c-alert-success-shade: var(--green-selection-dark);
+  --c-alert-warning: var(--gold-selection);
+  --c-alert-warning-shade: var(--gold-selection-dark);
+  --c-alert-error: var(--bg-error);
+  --c-alert-error-shade: var(--fg-error);
+  
+  --background-sidebars: #323232;
+  --background-editor: #212121;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-sidebars: #323232;
+    --background-editor: #212121;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-sidebars: #f0f0f0;
+    --background-editor: #ffffff;
+  }
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+#file-manager,
+#sidebar {
+  background-color: var(--background-sidebars) !important;
+}
+
+#editor {
+  font-size: 105% !important;
+  font-family: "iA Writer Duospace" !important;
+  background-color: var(--background-editor) !important;
+}
+
+#editor .CodeMirror {
+  max-width: 60em;
+  margin-left: 1em;
+  margin-right: 0;
+}
+
+.size-header-1,
+.size-header-2,
+.size-header-3 {
+  line-height: 100%;
+  font-size: 120% !important;
+}
+
+.size-header-1 {
+  font-size: 180% !important;
+}
+.size-header-3 {
+  font-size: 100% !important;
+}
+
+.cm-fenced-code.cm-atom {
+	color: #606060 !important;;  
+}
+
+.CodeMirror-line:not(:last-child)::after {
+  content: "¶";
+  color: #303030;
+}
