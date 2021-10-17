@@ -1,4 +1,4 @@
-# Zettlr-Custom-CSS
+# Zettlr Custom CSS
 
 ![Screenshot](https://raw.githubusercontent.com/marc2o/Zettlr-Custom-CSS/main/screenshot.png)
 
