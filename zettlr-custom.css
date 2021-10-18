@@ -45,7 +45,7 @@
 }
 
 ::-webkit-scrollbar {
-	display: none;
+  display: none;
 }
 
 #file-manager,
