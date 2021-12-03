@@ -56,7 +56,8 @@
  
 #file-manager #file-list,
 #file-manager #file-tree,
-#file-manager .list-item {
+#file-manager .list-item,
+#file-manager .list-item-wrapper {
   background-color: transparent !important;
 }
  
