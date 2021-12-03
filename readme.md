@@ -3,6 +3,8 @@
 ![Screenshot](https://raw.githubusercontent.com/marc2o/Zettlr-Custom-CSS/main/screenshot.png)
 My personal custom CSS for [Zettlr](https://zettlr.com), »a markdown editor for the 21st century«, (macOS, not tested on other platforms). Looks best with the themes _Berlin_, _Bielefeld_ and _Karl-Marx-Stadt_. Adapts to dark and light mode.
 
+Should at least work with the macOS and Windows versions.
+
 ## How to use
 
 1. Open Zettlr.
