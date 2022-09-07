@@ -1,7 +1,15 @@
 # Zettlr Custom CSS
 
-![Screenshot](https://raw.githubusercontent.com/marc2o/Zettlr-Custom-CSS/main/screenshot.png)
-My personal custom CSS for [Zettlr](https://zettlr.com), »a markdown editor for the 21st century«, (macOS, not tested on other platforms). Looks best with the themes _Berlin_, _Bielefeld_ and _Karl-Marx-Stadt_. Adapts to dark and light mode.
+My personal custom CSS for [Zettlr](https://zettlr.com) to make the text editor look a little bit more like iA Writer. 
+
+However, since the newer Versions of Zettlr really do look so beautiful, I stripped down my custom CSS to just a few basic things:
+
+- Font
+- The same size for text and headings
+- Neutral grey background color
+- End-of-paragraph marker
+
+Looks best with the _Berlin_ theme, Adapts to dark and light mode.
 
 Should at least work with the macOS and Windows versions.
 
@@ -14,5 +22,5 @@ Should at least work with the macOS and Windows versions.
 
 ## Requirements
 
-- [**Zettlr**](https://github.com/Zettlr/Zettlr/releases)
-- [**iA Writer Duospace**](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Duospace), the font used in [iA Writer](https://ia.net/writer) (which can be downloaded for free from the GitHub repository)
+- Download and install [**Zettlr**](https://github.com/Zettlr/Zettlr/releases)
+- Download and install [**iA Writer Duospace**](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Duospace), the font used in [iA Writer](https://ia.net/writer)
