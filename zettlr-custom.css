@@ -2,13 +2,13 @@
 
 :root {
   --m2o-background-editor: #212121;
-  --m2o-invisibles-color: #525252;
+  --m2o-invisibles-color: #313131;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --m2o-background-editor: #212121;
-    --m2o-invisibles-color: #525252;
+    --m2o-invisibles-color: #313131;
   }
 }
  
@@ -28,13 +28,14 @@
     The font is available on GitHub
     https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Duospace
   */
-  font-family: "iA Writer Duospace" !important;
+  font-family: "iA Writer Duospace" !important;;
   background-color: var(--m2o-background-editor) !important;
 }
 
 #editor .CodeMirror {
   max-width: 60em;
   margin: 0 0.1em 0 2em;
+  line-height: 140%;
 }
 
 .CodeMirror-line:not(:last-child)::after {
