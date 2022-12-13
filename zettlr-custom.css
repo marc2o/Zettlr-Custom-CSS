@@ -46,3 +46,8 @@
 [class*=size-header-] {
   font-size: 100% !important;
 }
+
+.CodeMirror-cursor {
+  width: 3px !important;
+  background-color: rgb(30 225 160) !important;
+}
