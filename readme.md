@@ -13,7 +13,11 @@ Looks best with the _Berlin_ theme, Adapts to dark and light mode.
 
 Should at least work with the macOS and Windows versions.
 
-**Please note:** There are two version — one for Zettlr up to version 2.3, and one for the new version 3.
+**Please note:** There are three versions.
+
+1. one for Zettlr up to version 2.3
+2. one for version 3.0 to 3.2
+3. one for version 3.0.3
 
 ## How to use
 
