@@ -4,42 +4,45 @@
 */
 
 :root {
-  --m2o-background-editor: #212121;
-  --m2o-invisibles-color: #313131;
-  --m2o-editor-font: "iA Writer Duo S";
+	--m2o-background-editor: #212121;
+	--m2o-invisibles-color: #313131;
+	--m2o-editor-font: "iA Writer Duo S";
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --m2o-background-editor: #212121;
-    --m2o-invisibles-color: #313131;
-  }
+	:root {
+		--m2o-background-editor: #212121;
+		--m2o-invisibles-color: #313131;
+	}
 }
- 
+
 @media (prefers-color-scheme: light) {
-  :root {
-    --m2o-background-editor: #f7f7f7;
-    --m2o-invisibles-color: #e0e0e0;
-  }
+	:root {
+		--m2o-background-editor: #f7f7f7;
+		--m2o-invisibles-color: #e0e0e0;
+	}
 }
 
 .cm-content {
-  font-family: var(--m2o-editor-font) !important;;
+	font-family: var(--m2o-editor-font) !important;
+	;
 }
 
 .main-editor-wrapper {
-  font-family: var(--m2o-editor-font) !important;;
-  background-color: var(--m2o-background-editor) !important;
+	font-family: var(--m2o-editor-font) !important;
+	;
+	background-color: var(--m2o-background-editor) !important;
 }
 
 .editor-container {
-  height: 100%;
+	height: 100%;
 }
 
 .cm-scroller {
-  padding-right: 5em !important;
+	padding-right: 4em !important;
+	padding-left: 1em !important;
 }
 
 [class*=size-header-] {
-  font-size: 100% !important;
+	font-size: 100% !important;
 }
