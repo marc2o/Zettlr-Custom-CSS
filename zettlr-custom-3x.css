@@ -30,6 +30,19 @@
 .cm-yaml-frontmatter-end {
   color: var(--system-accent-color) !important;
 }
+
+.cm-cursor {
+  background-color: var(--system-accent-color) !important;
+}
+
+
+.cm-selectionBackground {
+  background-color: var(--system-accent-color) !important;
+}
+::selection {
+  color: var(--system-accent-color-contrast) !important;
+}
+
 .cm-content {
   font-family: var(--m2o-editor-font) !important;;
 }

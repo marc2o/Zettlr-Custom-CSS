@@ -5,23 +5,19 @@ My personal custom CSS for [Zettlr](https://zettlr.com) to make the text editor 
 However, since the newer Versions of Zettlr really do look so beautiful, I stripped down my custom CSS to just a few basic things:
 
 - Font
+- Use macOS accent color instead of theme color
 - The same size for text and headings
 - Neutral grey background color
 - End-of-paragraph marker
 
-Looks best with the _Berlin_ theme, Adapts to dark and light mode.
+Looks best with the _Berlin_ theme, adapts to dark and light mode.
 
-Should at least work with the macOS and Windows versions.
+Only tested on macOS, but should work with Windows version, too.
 
-**Please note:** There are three versions.
-
-1. one for Zettlr up to version 2.3
-2. one for version 3.0 to 3.2
-3. one for version 3.0.3
 
 ## How to use
 
-1. Open Zettlr.
+1. Open Zettlr (3.2+).
 2. Switch to **Berlin** theme
 2. Go to **Zettlr > Assets Manager**
 3. Switch to **Custom CSS**
