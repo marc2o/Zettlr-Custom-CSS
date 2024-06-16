@@ -1,3 +1,5 @@
+![Screenshot](screenshot.png)
+
 # Zettlr Custom CSS
 
 My personal custom CSS for [Zettlr](https://zettlr.com) to make the text editor look a little bit more like iA Writer. 
