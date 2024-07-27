@@ -2,15 +2,14 @@
 
 # Zettlr Custom CSS
 
-My personal custom CSS for [Zettlr](https://zettlr.com) to make the text editor look a little bit more like iA Writer. 
+My personal custom CSS for [Zettlr](https://zettlr.com) to make the text editor look a little bit more like iA Writer & Obsidian. The CSS »patches« a few things:
 
-However, since the newer Versions of Zettlr really do look so beautiful, I stripped down my custom CSS to just a few basic things:
-
-- Font
-- Use macOS accent color instead of theme color
-- The same size for text and headings
+- Text font
+- macOS accent color instead of theme color
+- Same size for text and headings
 - Neutral grey background color
 - End-of-paragraph marker
+- Markdown marks in text color (except when inside links)
 
 Looks best with the _Berlin_ theme, adapts to dark and light mode.
 

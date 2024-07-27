@@ -6,6 +6,8 @@
 :root {
   --m2o-background-editor: #212121;
   --m2o-invisibles-color: #313131;
+  --m2o-md-mark-color: #ffffff;
+  --m2o-alt-background: #1d1d1d;
   --m2o-editor-font: "iA Writer Duo S";
   --m2o-code: #888888;
 }
@@ -14,6 +16,8 @@
   :root {
     --m2o-background-editor: #212121;
     --m2o-invisibles-color: #313131;
+    --m2o-md-mark-color: #ffffff;
+    --m2o-alt-background: #1d1d1d;
   }
 }
  
@@ -21,11 +25,19 @@
   :root {
     --m2o-background-editor: #f7f7f7;
     --m2o-invisibles-color: #e0e0e0;
+    --m2o-md-mark-color: #000000;
+    --m2o-alt-background: #f0f0f0;
   }
 }
 
+.cm-hr,
+.cm-code-mark {
+  color: var(--m2o-md-mark-color) !important;
+}
+
 .cm-link,
-.cm-code-mark,
+.cm-link .cm-code-mark,
+.footnote,
 .cm-yaml-frontmatter-start,
 .cm-yaml-frontmatter-end {
   color: var(--system-accent-color) !important;
@@ -68,4 +80,9 @@
 .code {
   font-size: 110%;
   color: var(--m2o-code) !important;
+}
+
+.code,
+.cm-comment {
+  background-color: var(--m2o-alt-background) !important;
 }
